@@ -1,3 +1,4 @@
+<?php
 
 function Auth($authorization){
 	list($type, $authorization) = explode(" ", $authorization);
@@ -12,3 +13,5 @@ function Auth($authorization){
 	
 	return false;
 }
+
+?>
