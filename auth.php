@@ -4,7 +4,7 @@ function Auth($authorization){
 	list($type, $authorization) = explode(" ", $authorization);
 	
 	$valid_tokens = array(
-		'FREETOKEN',
+		'TOKEN',
 		'TOKEN1',
 		'TOKEN2',
 	);
